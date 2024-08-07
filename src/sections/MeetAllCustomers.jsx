@@ -11,7 +11,7 @@ const MeetAllCustomers = () => {
         className="h-auto w-auto"
         data-aos="fade-right"
       />
-      <div className="font-inter">
+      <div className="font-inter" data-aos="fade-left">
         <p className="fw-medium text-gray-200">
           Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis
           sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus.

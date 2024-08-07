@@ -3,7 +3,9 @@ import Button from "react-bootstrap/Button";
 
 const Demo = () => {
   return (
-    <Container className="text-secondary text-center font-inter bg-silver mt-5 py-5">
+    <Container
+      className="text-secondary text-center font-inter bg-silver mt-5 py-5"
+      data-aos="zoom-in">
       <h1 className="fw-bold fs-1 w-100">
         Pellentesque suscipit
         <br />

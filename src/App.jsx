@@ -1,18 +1,29 @@
 import "./styles/index.css";
-import "bootstrap/dist/css/bootstrap.min.css";
-import NavbarComponent from "./components/NavbarComponents";
-import Hero from "./sections/Hero";
-import Clients from "./sections/Clients";
-import Manage from "./sections/Manage";
-import Pixelgrade from "./sections/Pixelgrade";
-import BusinessStats from "./sections/BusinessStats";
-import Design from "./sections/Design";
-import MeetAllCustomers from "./sections/MeetAllCustomers";
-import Marketing from "./sections/Marketing";
-import Demo from "./sections/Demo";
-import FooterComponent from "./components/FooterComponent";
+import "./styles/sass/main.scss";
+import "aos/dist/aos.css";
+import AOS from "aos";
+import { useEffect } from "react";
+import { NavbarComponent, FooterComponent } from "./components";
+import {
+  Hero,
+  Clients,
+  Manage,
+  Pixelgrade,
+  BusinessStats,
+  Design,
+  MeetAllCustomers,
+  Marketing,
+  Demo,
+} from "./sections";
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      offset: 120,
+    });
+  }, []);
+
   return (
     <>
       <header className="bg-silver">

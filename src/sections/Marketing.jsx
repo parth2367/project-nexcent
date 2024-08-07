@@ -25,7 +25,7 @@ export const MarkettingContent = [
 const Marketing = () => {
   return (
     <Container className="text-center font-inter bg-white py-5">
-      <div className="font-inter">
+      <div className="font-inter" data-aos="fade-right">
         <h1 className="fs-1 lh-base text-gray-900 fw-bold">
           Caring is the new marketing
         </h1>

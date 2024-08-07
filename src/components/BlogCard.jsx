@@ -1,6 +1,8 @@
 const BlogCard = ({ id, imgUrl, title, link }) => {
   return (
-    <div className="position-relative bg-silver rounded-4 card">
+    <div
+      className="position-relative bg-silver rounded-4 card"
+      data-aos={id === 1 ? "fade-right" : id === 2 ? "fade-down" : "fade-left"}>
       <img
         src={imgUrl}
         width={368}

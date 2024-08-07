@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 const Clients = () => {
   return (
     <Container className="text-center py-5 bg-white">
-      <div className="font-inter">
+      <div className="font-inter" data-aos="fade-down">
         <h1 className="text-gray-900 fs-1 fw-bold">Our Clients</h1>
         <p className="text-gray-200 fw-light fs-6">
           We have been working with some Fortune 500+ clients

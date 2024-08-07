@@ -12,7 +12,7 @@ const Pixelgrade = () => {
         className="w-auto h-auto"
         data-aos="fade-right"
       />
-      <div className="sub-section font-inter">
+      <div className="sub-section font-inter" data-aos="fade-left">
         <h1 className="text-gray-900 fw-semibold lh-base">
           The unseen of spending three&nbsp; <br />
           years at <span className="text-primary">Pixelgrade</span>

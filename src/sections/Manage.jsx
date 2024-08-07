@@ -22,7 +22,7 @@ const ManageContent = [
 const Manage = () => {
   return (
     <Container className="text-center font-inter bg-white py-5">
-      <div>
+      <div data-aos="fade-down">
         <h1 className="fs-1 lh-base text-gray-900 fw-bold">
           Manage your entire community <br /> in a single system
         </h1>

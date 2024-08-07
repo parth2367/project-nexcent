@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 const Hero = () => {
   return (
     <Container className="d-flex flex-lg-row flex-column justify-content-lg-between justify-content-center align-items-center px-5 my-5 bg-silver">
-      <div className="font-inter">
+      <div className="font-inter" data-aos="fade-right">
         <h1 className="text-gray-900 fw-semibold">
           Lessons and insights&nbsp; <br />
           <span className="text-primary">from 8 years</span>

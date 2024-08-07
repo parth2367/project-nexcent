@@ -11,7 +11,7 @@ const Design = () => {
         alt="use-Img"
         className="w-auto h-auto"
       />
-      <div className="sub-section font-inter">
+      <div className="sub-section font-inter" data-aos="fade-left">
         <h1 className="text-gray-900 fw-semibold lh-base">
           How to design your site footer like&nbsp;
           <span className="text-primary">we did ?</span>
